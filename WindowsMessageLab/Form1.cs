@@ -27,7 +27,7 @@ namespace WindowsMessageLab
             SetWindowPos(myIntPtr, (IntPtr)(-1), 0, 0, 0, 0, 0x0040 | 0x0001); 
             
             //设置鼠标位置，使其落在第二个按钮上
-            SetCursorPos(80, 120);
+            SetCursorPos(80, 125);
 
             //模拟鼠标按下操作
             mouse_event(0x0002, 0, 0, 0, 0);

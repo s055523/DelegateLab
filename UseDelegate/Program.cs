@@ -15,7 +15,7 @@ namespace UseDelegate
         {
             var list = new List<int>();
 
-            //数据源：-5至10的所有整数
+            //数据源：-5至4的所有整数
             list.AddRange(Enumerable.Range(-5, 10));
 
             //2.指向

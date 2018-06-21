@@ -20,6 +20,7 @@ namespace DelegateOperator
             double b = 2;
             Console.WriteLine("Result: {0}", Calculate(a, b, Add));
             Console.WriteLine("Result: {0}", Calculate(a, b, Subtract));
+            Console.ReadKey();
         }
 
         public static double Calculate(double a, double b, CalculateDelegate cd)
